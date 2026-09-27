@@ -5,68 +5,40 @@
 
 <wml>
 
-<card id="home" title="Simple Dictionary">
-
-<p align="center">
-<b>MY DICTIONARY</b>
-</p>
-
-<p>Enter a word to find its meaning:</p>
+<card id="home" title="Dictionary">
 
 <p>
-<input name="word" type="text"/>
+<b>Simple Dictionary</b>
 </p>
+
+<p>Apple - A fruit</p>
+<p>Book - Written pages</p>
+<p>Computer - Electronic device</p>
+<p>Mobile - Communication device</p>
 
 <p>
 <anchor>
-Search
-<go href="#result"/>
+Next
+<go href="#info"/>
 </anchor>
-</p>
-
-<p>Available Words:</p>
-
-<p>
-Apple<br/>
-Book<br/>
-Computer<br/>
-Mobile
 </p>
 
 </card>
 
-
-<card id="result" title="Dictionary Result">
-
-<p align="center">
-<b>WORD MEANING</b>
-</p>
-
-<p>Searched Word: $(word)</p>
+<card id="info" title="Information">
 
 <p>
-<b>Meanings:</b>
+<b>Dictionary</b>
 </p>
 
-<p>
-Apple: A fruit that grows on trees.
-</p>
-
-<p>
-Book: A collection of written pages.
-</p>
-
-<p>
-Computer: An electronic device used to process information.
-</p>
-
-<p>
-Mobile: A portable communication device.
-</p>
+<p>Apple: A fruit that grows on trees.</p>
+<p>Book: A collection of written pages.</p>
+<p>Computer: A device used to process information.</p>
+<p>Mobile: A portable communication device.</p>
 
 <p>
 <anchor>
-Back to Home
+Back
 <go href="#home"/>
 </anchor>
 </p>
