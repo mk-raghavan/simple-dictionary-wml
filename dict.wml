@@ -1,0 +1,73 @@
+
+<?xml version="1.0"?>
+
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card id="home" title="Simple Dictionary">
+
+<p align="center">
+<b>MY DICTIONARY</b>
+</p>
+
+<p>Enter a word to find its meaning:</p>
+
+<p>
+<input name="word" type="text"/>
+</p>
+
+<p>
+<anchor>
+Search
+<go href="#result"/>
+</anchor>
+</p>
+
+<p>Available Words:</p>
+<p>
+Apple<br/>
+Book<br/>
+Computer<br/>
+Mobile
+</p>
+
+</card>
+
+<card id="result" title="Dictionary Result">
+
+<p align="center">
+<b>WORD MEANING</b>
+</p>
+
+<p>Searched Word: $(word)</p>
+
+<p><b>Meanings:</b></p>
+
+<p>
+Apple: A fruit that grows on trees.
+</p>
+
+<p>
+Book: A collection of written pages.
+</p>
+
+<p>
+Computer: An electronic device used to process information.
+</p>
+
+<p>
+Mobile: A portable communication device.
+</p>
+
+<p>
+<anchor>
+Back to Home
+<go href="#home"/>
+</anchor>
+</p>
+
+</card>
+
+</wml>
