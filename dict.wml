@@ -1,4 +1,3 @@
-
 <?xml version="1.0"?>
 
 <!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
@@ -26,6 +25,7 @@ Search
 </p>
 
 <p>Available Words:</p>
+
 <p>
 Apple<br/>
 Book<br/>
@@ -35,6 +35,7 @@ Mobile
 
 </card>
 
+
 <card id="result" title="Dictionary Result">
 
 <p align="center">
@@ -43,7 +44,9 @@ Mobile
 
 <p>Searched Word: $(word)</p>
 
-<p><b>Meanings:</b></p>
+<p>
+<b>Meanings:</b>
+</p>
 
 <p>
 Apple: A fruit that grows on trees.
